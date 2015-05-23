@@ -1,0 +1,38 @@
+{
+  "name": "thunk-shift-right",
+  "description": "Idempotent array operation helpers",
+  "version": "1.0.0",
+  "keywords": [
+    "errorless",
+    "error-less",
+    "thunks",
+    "functional-programming",
+    "thunkify",
+    "co",
+    "generators"
+  ],
+  "homepage": "https://github.com/shovon/thunk-shift-right",
+  "author": "Salehen Shovon Rahman <sal@linux.com> (http://shovon.github.io)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shovon/thunk-shift-right.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shovon/thunk-shift-right/issues"
+  },
+  "license": "MIT",
+  "main": "./index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel/register",
+    "build": "babel src/index.js > index.js"
+  },
+  "devDependencies": {
+    "babel": "^5.4.3",
+    "expect.js": "^0.3.1",
+    "mocha": "^2.2.5",
+    "thunkify": "^2.1.2"
+  },
+  "dependencies": {
+    "idempotent": "^0.4.0"
+  }
+}
